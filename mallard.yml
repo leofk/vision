@@ -1,4 +1,4 @@
-name: 'cpsc330'
+name: 'mallard'
 channels:
   - conda-forge
   - defaults
@@ -15,6 +15,9 @@ dependencies:
   - pip>=20
   - pandas-profiling>=3.2.0
   - lifelines>=0.27.1
+  - jupyterlab 
+  - jupyterlab-spellchecker 
+  - nb_conda_kernels
   - pip:
     - mglearn
     - psutil>=5.7.2
